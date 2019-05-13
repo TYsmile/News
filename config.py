@@ -8,7 +8,7 @@ class Config(object):
     SECRET_KEY = 'tCDMlA0Q97pIi0dE9d0azpGI0cYnPn+pWLPaGUei6QnLzIFKkW3VTNVady+/0ZY1'
 
     # 为数据库添加配置
-    SQLALCHEMY_DATABASE_URI = "mysql://root:weixiao@127.0.0.1:3306/information27"
+    SQLALCHEMY_DATABASE_URI = "mysql://root:你的仓库名@127.0.0.1:3306/数据库名"
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     # 在请求结束时，如果指定此配置为 True， 那么 SQLAlchemy 会自动执行一次 db.session.commit()操作
     SQLALCHEMY_COMMIT_ON_TEARDOWN = True
